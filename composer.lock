@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bc9cd6b013f74200197d5419e01e5a5a",
+    "packages": [
+        {
+            "name": "igorw/compose",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/igorw/compose.git",
+                "reference": "c8708d019e221ac64c82cf34204cc6f6933aa237"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/igorw/compose/zipball/c8708d019e221ac64c82cf34204cc6f6933aa237",
+                "reference": "c8708d019e221ac64c82cf34204cc6f6933aa237",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/compose.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch",
+                    "homepage": "http://wiedler.ch/igor/"
+                }
+            ],
+            "description": "Function composition.",
+            "keywords": [
+                "composition",
+                "functional"
+            ],
+            "support": {
+                "issues": "https://github.com/igorw/compose/issues",
+                "source": "https://github.com/igorw/compose/tree/v1.0.1"
+            },
+            "time": "2013-04-20T00:49:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-mbstring": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
